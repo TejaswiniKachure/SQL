@@ -1,0 +1,120 @@
+1.
+
+Create Table Customer
+(
+Custid NUMBER,
+CName VARCHAR2(20),
+LName Varchar2(20),
+City VARCHAR2(15),
+Phone VARCHAR(15)
+);
+
+Select * from Customer;
+Insert into Customer Values(101,'Ajay','z','pune','9898989898');
+Insert into Customer Values(102,'Jay','y','pune','9898989890');
+Insert into Customer Values(103,'Aman','x','Nagpur','9898989899');
+Insert into Customer Values(104,'Teju','K','Raipur','9898989881');
+Insert into Customer Values(105,'Ankita','T','Mumbai','9890989838');
+Insert into Customer Values(106,'Karina','K','pune','9898189898');
+Insert into Customer Values(107,'Anushka','M','Nagpur','9894989898');
+Insert into Customer Values(108,'Mani','B','pune','9808989898');
+Insert into Customer Values(109,'Ashwini','pandit','patna','9898988098');
+Insert into Customer Values(110,'Gauri','Panday','Surat','9898989558');
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.
+
+Create Table Product
+(
+ProductID NUMBER,
+ProductName VARCHAR2(50),
+Price Number
+);
+
+Select * from product;
+
+Insert into product values(11,'Mobile',50000);
+Insert into product values(12,'Tv',30000);
+Insert into product values(13,'Laptop',100000);
+Insert into product values(14,'Books',20000);
+Insert into product values(15,'Bed',10000);
+Insert into product values(16,'Table',5000);
+Insert into product values(17,'Chair',7000);
+Insert into product values(18,'Camera',200000);
+Insert into product values(19,'Bag',3000);
+Insert into product values(20,'Watche',5000);
+drop table product;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+3.
+
+Create Table Hospital
+(
+PatientID NUMBER,
+PatientName VARCHAR2(20),
+PaitientGender VARCHAR2(5),
+City Varchar2(15)
+);
+
+select * from Hospital;
+
+Insert into Hospital values(501,'Ram','M','Nagpur');
+Insert into Hospital values(502,'Shyam','M','Raipur');
+Insert into Hospital values(503,'Rani','F','Surat');
+Insert into Hospital values(504,'Monu','M','Patna');
+Insert into Hospital values(505,'sonu','F','Mumbai');
+Insert into Hospital values(506,'Priti','F','Pune');
+Insert into Hospital values(507,'Keshav','M','Nagpur');
+Insert into Hospital values(508,'Krish','M','Pune');
+Insert into Hospital values(509,'Meeta','M','Surat');
+Insert into Hospital values(510,'Minu','F','Nagpur');
+drop table hospital;
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.
+
+Create Table Vehicle(
+VehicleID Number,
+VehicleModel VARCHAR2(15),
+Company VARCHAR2(20),
+City VARCHAR2(10)
+);
+
+select * from Vehicle;
+
+Insert into Vehicle Values(1,'Fortuner','Toyata','Delhi');
+Insert into Vehicle Values(2,'Thar','Mahindra','Hyderabad');
+Insert into Vehicle Values(3,'Creta','Hyundai','Delhi');
+Insert into Vehicle Values(4,'Swift','Maruti','Pune');
+Insert into Vehicle Values(5,'i20','Hyundai','Chennai');
+Insert into Vehicle Values(6,'Nexon','Tata','Pune');
+Insert into Vehicle Values(7,'Mustang','Ford','Jodhapur');
+Insert into Vehicle Values(8,'Carnival','Kia','Kanpur');
+Insert into Vehicle Values(9,'Innova','Toyata','Nagpur');
+Insert into Vehicle Values(10,'Kona','Hyundai','Chennai');
+drop table vehicle;
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.
+
+Create Table Department(
+DeptID Number,
+DeptName VARCHAR2(20),
+Location VARCHAR2(10)
+);
+drop table Department;
+select * from Department;
+
+Insert Into Department values(21,'IT','Pune');
+Insert Into Department values(22,'HR','Gurgaon');
+Insert Into Department values(23,'E-Commerce','Noida');
+Insert Into Department values(24,'Reseach Lab','Pune');
+Insert Into Department values(25,'DA','Mumbai');
+Insert Into Department values(26,'Finance','Pune');
+Insert Into Department values(27,'Technical Support','Noida');
+Insert Into Department values(28,'Medical Services','Nagpur');
+Insert Into Department values(29,'Supply chain','Nashik');
+Insert Into Department values(30,'Business Development','chandigarh');
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
